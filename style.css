@@ -96,6 +96,14 @@ nav>img{
     height: 50px;
     margin: 1px;
 }
+h1{
+    margin-top: 40px;
+}
+#des{
+    width: 800px;
+    position: relative;
+    left: 20%;
+}
 .account{
     position: relative;
     left: 150px;
@@ -277,5 +285,10 @@ li{
     .content{
         right: 0px;
         left: 70px;
+    }
+    #des{
+        margin-top: 30px;
+        width: 99%;
+        left:0%;
     }
 }
