@@ -1,1 +1,2 @@
 # Amrutha-villas
+Step into Amrutham, where the food is so good it's practically stand-up comedy for your taste buds! This restaurant is a flavor carnival, with dishes that will make you question the meaning of bland. The ambiance is a quirky mix of disco lights and grandma's kitchen, creating an atmosphere as unique as the menu. From "Drama Dumplings" to "Surprise-me Soup," Amrutham promises a dining experience where every bite is a punchline and every meal is a hilarious adventure. It's not just a restaurant; it's a laughter-filled feast that'll leave you craving more!
