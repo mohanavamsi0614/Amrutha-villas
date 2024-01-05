@@ -262,7 +262,24 @@ li{
         right: 5%;
     }
     #sort{
-    display: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        font-size: small;
+        text-align: center;
+        padding-right: 2px;
+    }
+    .alpha{
+        width: 5%;
+    }
+    .spacesort{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: visible;
+        justify-content: center;
+        position: relative;
+        right: 5%;
+        flex-wrap: wrap;
     }
     dialog{
     height: 70vh;
