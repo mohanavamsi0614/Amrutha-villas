@@ -145,7 +145,7 @@ async function search(g) {
     return data;
 }
 catch{
-    space.innerHTML="<div><img src='./assets/error.png' width='100%' class='j'/><h1 align='center'>No Results found</h1></div>"
+    space.innerHTML="<div class='error'><img src='./assets/error.png' width='100%' class='j'/><h1 align='center'>No Results found</h1></div>"
 }
   }
   sear.onclick=()=>{

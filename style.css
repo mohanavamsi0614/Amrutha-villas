@@ -12,8 +12,15 @@ img{
     border-radius:40px;
 }
 #space .j{
-    transform: scale(1.5);
-    justify-content: center;
+    transform: scale(1.2);
+    overflow: hidden;
+    justify-content: center; 
+}
+#space .error{
+    margin: auto;
+    width: 50%;
+    position: relative;
+    left:100%
 }
 #space{
     display: flex;
@@ -139,8 +146,6 @@ img{
     width: 100%;
     padding: 10px;
     display: none;
-
-
 }
 .randomimg{
     height: 300px;
@@ -291,4 +296,9 @@ li{
         width: 99%;
         left:0%;
     }
+    #space .error{
+        left:0;
+        right: 100%;
+    }
+
 }
