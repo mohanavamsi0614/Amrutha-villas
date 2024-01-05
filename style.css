@@ -11,7 +11,15 @@ body{
 img{
     border-radius:40px;
 }
-
+#space .j{
+    transform: scale(1.5);
+    justify-content: center;
+}
+#space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 input{
     height: 50px;
     width: 315px;
@@ -39,21 +47,52 @@ nav{
     background-color: white;
     padding: 10px;
 }
+#bio{
+    display: flex;
+    justify-content: space-between;
+}
+#nam{
+    word-break: break-all;
+}
+.images div{
+    margin-bottom: 100px;
+}
+#Ingredents{
+    font-size: xx-large;
+    font-weight: 900;
+    margin: 30px;
+}
+#Ingredents div{
+    width: 100%;
+}
+
+#Ingredents img{
+    width: 100%;
+}
+.profile{
+    width: 50vw;
+    line-height: 50px;
+    margin: 30px;
+}
 .flex{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .content{
     width: 500px;
     justify-content:space-around;
     position: relative;
-    right: 70px;
+    right: 10%;
     background-color: white;
 }
 nav>img{
     position: absolute;
-    left: 10px;
+    left: 1%;
     height: 50px;
     margin: 1px;
 }
@@ -66,7 +105,8 @@ img{
 }
 .images{
     height: 35vw;
-    background-color: beige;
+    /* background-color: rgb(0, 0, 0); */
+    position: relative;
     margin:10px 10px;
     padding: 10px;
     overflow: hidden;
@@ -77,21 +117,21 @@ img{
     z-index: 2;
     left: 1px;
     height: 50px;
-    top:260px
+    top:50%
 }
 #right{
     position: absolute;
     z-index:2;
     right: 1px;
     height: 50px;
-    top: 250px;
+    top: 50%;
 }
 .slide{
     position: relative;
-    /* display: none; */
     width: 100%;
     padding: 10px;
     display: none;
+
 
 }
 .randomimg{
@@ -110,22 +150,30 @@ img{
 }
 #space{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
     margin: 10px;
+    margin-left: 20px;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
 }
 
 .food{
-    border: 1px solid black;
-    padding: 20px;
-    background-color: white;
+    border: none;
     border-radius: 40px;
     cursor: pointer;
-    box-shadow: 10px 10px 10px 3px rgb(7, 7, 7);
+    height: 300px;
+    overflow: visible;
+    transition: transform .5s;
 }
+.food img{
+    transform: scale(0.9);
+    height: 90%;
+}
+
 .food:hover{
-    font-size: large;
-    box-shadow: 10px 5px 10px 3px rgb(193, 34, 34);
+    transform: scale(0.9);
 }
 #close{
     position: absolute;
@@ -148,8 +196,7 @@ dialog{
 ::backdrop {
     background-color:rgba(217, 202, 202, 0.38); 
     backdrop-filter: blur(5px);
-    
-  }
+}
 #img{
     width: 45%;
     padding: 10px;
@@ -167,4 +214,68 @@ li{
 }
 .result{
     margin: 50px;
+}
+.aa{
+    color: rgb(162, 116, 205);
+}
+#sort{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px ;
+    margin-bottom: 80px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+}
+.spacesort{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.alpha{
+    background-color: coral;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 2%;
+}
+@media only  screen and (max-width:600px){
+    #space{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: visible;
+        justify-content: center;
+    }
+    #sort{
+    display: none;
+    }
+    dialog{
+    height: 70vh;
+    width: 100%;
+    }
+    #img{
+        width: 100%;
+        height: fit-content;
+    }
+    .intro{
+        flex-direction: column;
+    }
+    #nam{
+        font-size: x-large;
+    }
+    dialog{
+        margin-left:19px;
+        margin-right: 19px;
+        width: 400px;
+    }
+    .slide{
+        bottom: 150px;
+    }
+    .randomimg{
+        height: 150px;
+    }
+    .content{
+        right: 0px;
+        left: 70px;
+    }
 }
