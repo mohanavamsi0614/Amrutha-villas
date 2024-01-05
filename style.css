@@ -258,6 +258,8 @@ li{
         flex-wrap: wrap;
         overflow: visible;
         justify-content: center;
+        position: relative;
+        right: 5%;
     }
     #sort{
     display: none;
@@ -267,7 +269,7 @@ li{
     width: 100%;
     }
     #img{
-        width: 100%;
+        width: 90%;
         height: fit-content;
     }
     .intro{
@@ -285,7 +287,10 @@ li{
         bottom: 150px;
     }
     .randomimg{
-        height: 150px;
+        height: 100px;
+    }
+    #foodimg{
+        width: 90%;
     }
     .content{
         right: 0px;
