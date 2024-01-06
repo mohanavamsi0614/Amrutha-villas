@@ -65,8 +65,8 @@ nav{
     margin-bottom: 100px;
 }
 #Ingredents{
-    font-size: xx-large;
-    font-weight: 900;
+    font-size: x-large;
+    font-weight: 700;
     margin: 30px;
 }
 #Ingredents div{
@@ -272,6 +272,9 @@ li{
     .alpha{
         width: 5%;
     }
+    .descrepsion{
+        font-size: 20px;
+    }
     .spacesort{
         display: flex;
         flex-wrap: wrap;
@@ -304,7 +307,8 @@ li{
         bottom: 150px;
     }
     .randomimg{
-        height: 100px;
+        height: 150px;
+        width: 400px;
     }
     #foodimg{
         width: 90%;
